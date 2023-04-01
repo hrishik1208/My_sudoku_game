@@ -35,29 +35,4 @@ Items to grade:
 2. Back-tracking solver (the "solve" function in solve.cpp)
 3. Alternating projection solver (the "DR" function in altproj.cpp)
 
-## Project Contributions ##
-
-1. Matt:
-    * implemented two Sudoku solvers: backtracking and alternating projections
-    * implemented function to generate a Sudoku puzzle
-
-2. Alex:
-    * implements actual game-play and game-play logic (taking user input, printing/formatting to screen etc.)
-    * implemented comamnd line flags and associated functions(ie. unit testing / timing functions)
-
-## Notes on Building Project ##
-
-Build reqiures the `armadillo` library.  You can download it from the website
-http://arma.sourceforge.net/.
-
-## References ##
-
-1. Pseudo-code for backtracking algorithm
-    - http://moritz.faui2k3.org/en/yasss
-
-2. Idea to use Douglas-Rachford splitting to solve Sudoku
-    - "Recent Results on Douglas–Rachford Methods for Combinatorial Optimization Problems"
-
-3. Function timing code
-	- http://stackoverflow.com/questions/29719999/testing-function-for-speed-performance-in-cpp
 
